@@ -1,0 +1,94 @@
+
+body {
+    background-color: #495579;
+}
+
+.panel {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 350px;
+}
+
+.panel h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.structure-area,
+.deleted-area {
+    min-height: 270px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+
+.structure-area {
+    background-color: #212529;
+}
+
+.deleted-area {
+    background-color: #9C254D;
+    justify-content: flex-end;
+}
+
+.value-block {
+    width: 75px;
+    min-height: 50px;
+    background-color: #0d6efd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.top-item {
+    border: 3px solid #ffc107;
+}
+
+.peek-highlight {
+    background-color: #ffc107;
+    color: black;
+    border: 3px solid white;
+}
+
+.deleted-block {
+    background-color: #dc3545;
+}
+
+
+/* QUEUE STYLING */
+
+#queueEnds {
+    font-weight: bold;
+}
+
+.queue-item {
+    width: min(100%, 240px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 8px;
+}
+
+.front-item {
+    border: 3px solid #20c997;
+}
+
+.rear-item {
+    border: 3px solid #ffc107;
+}
+
+.position-tag {
+    font-size: 11px;
+    background-color: white;
+    color: #212529;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
